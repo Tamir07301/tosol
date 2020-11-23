@@ -1,0 +1,215 @@
+.header {
+    background-color: #ffffff;
+    display: block;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #333333;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.top-link{
+    height: 20px;
+    
+}
+.top-link li a {
+    text-decoration: none;
+    color: #555555;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    padding: 0 5px;
+    border-left: 1px solid #dbdbdb;
+}
+.top-link li {
+    float: left;
+    line-height: 31px;
+}
+.top-link ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+}
+
+.Icon{
+    float: right;
+    
+}
+
+.main-link .nav li {
+    float: left;
+    position: relative;
+    padding: 0 15px;
+    list-style: none;
+    
+}
+.main-link{
+    display: block;
+    background: linear-gradient(#ff0000, #ca0000);
+    height: 50px;
+    margin-top: 5px;
+}
+.main-link .logo {
+    margin-top: 9px;
+}
+*{
+    box-sizing: border-box;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.main-link .nav {
+    margin-top: 14px;
+}
+
+
+.main-link .nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff!important;
+    padding: 5px 0;
+    font-size: 16px;
+    position: relative;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.search-site {
+    display: block;
+    float: right;
+    margin-top: 12px;
+    width: 200px;
+}
+.search-site .input-container input {
+    border: none;
+    border-radius: 2px;
+    padding: 5px 27px 5px 10px;
+    width: 200px;
+    line-height: 1.2;
+}
+.search-site .input-container button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.search-site .input-container button i {
+    color: #ff0000;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+}
+.social-links  {
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.social-links a{
+    display: inline-block;
+    margin-left: 4px;
+    width: 28px;
+    height: 28px;
+    line-height: 24px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #c00000;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.slide-wrapper {
+    margin-top: 18px;
+    display: block;
+    overflow: hidden;
+}
+.slides-nav, .slides-nav-middle {
+    z-index: 21;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.slides-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 200;
+}
+.slides-button a:link, .slides-button a {
+    color: #fff;
+}
+.slide-btn {
+    padding: 0 13px;
+    padding-left: 50px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-image: none;
+    cursor: pointer;
+    background-color: #f44336;
+    color: #FFF;
+    display: block;
+    text-align: left;
+    
+    white-space: nowrap;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 43px;
+    position: relative;
+    height: 43px;
+    margin-bottom: 7px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
