@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrappper-overflow">
+        <div class="slidebar">
+            <div class="wrapper">
+                <header class="fixed">
+                    <div class="top-link">
+                        <div class="container">
+                            
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-9">
+                                    <ul>
+                                        <li class="hidden-xs"><a href="/">Нүүр хуудас</a></li>
+                                        <li class="hidden-xs"><a href="/page/49">Франчайзинг</a></li>
+                                        <li class="hidden-xs"><a href="/ordertime">Цаг захиалах</a></li>
+                                        <li class="hidden-xs"><a href="/user/login">Нэвтрэх</a></li>
+                                        <li class="hidden-xs"><a href="/contactUs">Холбоо барих</a></li>                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="main-link">
+                        <div class="container">
+                            <div class="trow">
+                    
+                                    <div class="col-md-2 col-sm-2 col-xs-5">
+                                        <div class="logo">
+                                            <a href="/"><img src="/IMG/header_logo.png" alt="Doctor Auto Chain"></a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-5 col-sm-3 col-xs-7">
+                                        <div class="search-site">
+                                            <form class="form-inline" action="/search" method="get">
+                                                <div class="input-container">
+                                                    <input id="key" type="text" placeholder="Хайлт" class="search-text" name="key">
+                                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                       
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="content catalog">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Онлайн каталог</h1>
+                                    <div class="fuel-calculate" style="display: block;">
+                                        <div style="margin-bottom: 60px;">
+                                            <div class="mytool">
+                                                <h1>Өртөг тооцоолуур</h1>
+                                                <form id="fuel-calculate-f2" class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <label for="fuel_price" class="col-md-4 col-xs-12 control-label">Шатахууны үнэ (төг)</label>
+                                                        <div class="col-md-8 col-xs-12">
+                                                            <input type="text" class="form-control" id="fuel_price" placeholder="1 литр шатахууны үнэ (төгрөгөөр)" onchange="calculatefuel01()">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="road_total" class="col-md-4 col-xs-12 control-label">Явсан зам (км)</label>
+                                                        <div class="col-md-8 col-xs-12">
+                                                            <input type="text" class="form-control" id="road_total" placeholder="Явсан нийт зам (км-ээр)" onchange="calculatefuel01()">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="fuel_total" class="col-md-4 col-xs-12 control-label">Зарцуулсан шатахуун (литр)</label>
+                                                        <div class="col-md-8 col-xs-12">
+                                                            <input type="text" class="form-control" id="fuel_total" placeholder="Зарцуулсан шатахууны нийт хэмжээ (литрээр)" onchange="calculatefuel01()">
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="form-group">
+                                                        <label for="fuel_total" class="col-md-4 col-xs-12 control-label">Машин шатахуун зарцуулалт (100км-т)</label>
+                                                        <div class="col-md-8 col-xs-12">
+                                                            <span id="resultfuel01" style="font-size: 160%; font-weight: 700;">Үр дүн</span>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="form-group">
+                                                        <label for="fuel_total" class="col-md-4 col-xs-12 control-label">Зарцуулах нийт төлбөр (төг)</label>
+                                                        <div class="col-md-8 col-xs-12">
+                                                            <span id="resultfuel02" style="font-size: 160%; font-weight: 700;">Үр дүн</span>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+        </div>
+        </div>
+      
+    
+</body>
+</html>
